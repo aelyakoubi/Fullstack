@@ -1,0 +1,40 @@
+@import "./variables";
+@import "./container";
+@import "./container-shade";
+@import "./container-button";
+@import "./hover";
+
+
+
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: $color-gray;
+}
+
+div {
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+
+
+
+ /*Media queries*/
+ @media (max-width:1024px) {
+ html, body,.container  { 
+color:$color-orange;
+height: 800px;;
+width: auto;
+   }
+  }
+ 

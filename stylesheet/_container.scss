@@ -1,0 +1,100 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: -200px;
+    grid-row-gap: px;
+  background:$color-gray;
+  width: 1600px;
+  height: 1800px;
+  margin: 30px;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-left: 50px;
+  border:$color-blue;
+  grid-template-areas: 
+  " a b c" 
+  " d e f" 
+  " g . .";
+
+& .container1 {
+  grid-area: a;
+  text-align:center;
+  background-color: $color-blue;
+  width: 350px;
+  height: 350px;
+  position: relative;
+  background-image: url("./images/img_istockphoto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container2 {
+  grid-area: b;
+  background-color: $color-blue;
+  width: 350px;
+  height: 350px;
+  position: relative;
+  background-image: url("./images/img_istockphoto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container3 {
+  grid-area: c;
+  background-color: $color-blue;
+  width: 350px;
+  height: 350px;
+  position: relative;
+  background-image: url("./images/img_istockphoto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container4 {
+  grid-area: d;
+  background-color: $color-blue;
+  width: 350px;
+  height: 350px;
+  position: relative;
+  background-image: url("./images/img_istockphoto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container5 {
+  grid-area: e;
+  background-color: $color-blue;
+  width: 350px;
+  height: 350px;
+  position: relative;
+  background-image: url("./images/img_istockphoto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container6 {
+  grid-area: f;
+  background-color: $color-blue;
+  width: 350px;
+  height: 350px;
+  position: relative;
+  background-image: url("./images/img_istockphoto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container7 {
+  grid-area: g;
+  background-color: $color-blue;
+  width: 350px;
+  height: 350px;
+  position: relative;
+  background-image: url("./images/img_istockphoto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+
+
